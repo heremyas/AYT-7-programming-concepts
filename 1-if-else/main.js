@@ -1,35 +1,35 @@
 // if else
 
-const age = 17
+let weather = "normal";
 
-
-if (age < 18){
-    console.log('Is Minor')
+if (weather === "umaambon") {
+  console.log("Magdala ka ng Jacket");
+} else if (weather === "umuulan") {
+  console.log("Magdala ka ng Payong");
+} else if (weather === "malakasAngUlan") {
+  console.log("Wag ka nang pumasok");
 } else {
-    console.log('Is Not Minor')
+  console.log("Papasok ka nang normal");
 }
 
 // switch
 
-const programmingLanguage = "C++"
+let weather = "normal";
 
-switch (programmingLanguage) {
-    case "Javascript":
-        console.log("You are a Web Developer")
-        break;
+switch (weather) {
+  case "umaambon":
+    console.log("Magdala ka ng jacket");
+    break;
 
-    case "Python":
-        console.log("You are a curious with a lot of things")
-        break;
+  case "umuulan":
+    console.log("Magdala ka ng payong");
+    break;
 
-    case "C#":
-        console.log("You are a game developer")
-        break;
+  case "malakasAngUlan":
+    console.log("Wag ka na pumasok");
+    break;
 
-    case "Assembly":
-        console.log("You are a beast")
-        break;
-
-    default:
-        break;
+  default:
+    console.log("papasok ka nang normal");
+    break;
 }
